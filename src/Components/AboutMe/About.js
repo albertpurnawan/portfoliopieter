@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Profile from "../../public/Image/logo.jpeg";
+import Profile from "../../../public/Image/logo.jpeg";
 import { DataProfile } from "../Data/Data";
 const About = () => (
-  <div className="z-10">
+  <div className="z-10" id="about">
     {DataProfile.map((p, i) => {
       return (
         <div className="flex flex-col tablet:mt-20 hp:mt-10">

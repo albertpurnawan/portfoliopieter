@@ -1,6 +1,6 @@
 export default function Reach() {
   return (
-    <div className="z-10">
+    <div className="z-10" id="reach">
       <div className="hp:mx-8 tablet:mx-20 hp:mt-16 flex hp:flex-col">
         <p className="hp:text-2xl hp:mb-4 font-semibold uppercase">
           Reach me on

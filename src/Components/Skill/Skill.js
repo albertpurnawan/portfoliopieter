@@ -2,7 +2,7 @@ import { Card } from "../Card/Card";
 
 export default function Skill() {
   return (
-    <div className="z-10">
+    <div className="z-10" id="skill">
       <p className="hp:text-2xl hp:mx-8 tablet:mx-20 hp:mt-16 hp:mb-4 font-semibold uppercase">
         My Skill
       </p>
